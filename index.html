@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="0xCyb3rw0lf6T9 Assignment Builder - Create professional assignments."
+    >
+
+    <title>0xCyb3rw0lf6T9 | Assignment Builder</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =====================================================
+     NAVBAR
+===================================================== -->
+
+<header class="navbar">
+
+    <div class="nav-container">
+
+        <a href="#home" class="logo">
+            <span class="logo-icon">
+                <i class="fa-solid fa-terminal"></i>
+            </span>
+
+            <span class="logo-text">
+                0xCyb3rw0lf6T9
+                <small>Assignment Builder</small>
+            </span>
+        </a>
+
+        <nav class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#builder">Builder</a>
+            <a href="#editor">Editor</a>
+            <a href="#preview">Preview</a>
+        </nav>
+
+        <div class="nav-actions">
+
+            <button
+                type="button"
+                class="theme-btn"
+                id="themeBtn"
+                aria-label="Toggle theme"
+            >
+                <i class="fa-solid fa-moon"></i>
+            </button>
+
+            <a href="#builder" class="nav-create">
+                Create Assignment
+            </a>
+
+        </div>
+
+        <button
+            class="menu-btn"
+            id="menuBtn"
+            type="button"
+            aria-label="Open menu"
+        >
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+    </div>
+
+</header>
+
+
+<!-- =====================================================
+     MAIN
+===================================================== -->
+
+<main>
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section class="hero" id="home">
+
+    <div class="hero-grid"></div>
+
+    <div class="hero-container">
+
+        <div class="hero-content">
+
+            <div class="hero-badge">
+                <span class="pulse"></span>
+                Smart Assignment Creation
+            </div>
+
+            <h1>
+                Build Better
+                <span>Assignments.</span>
+            </h1>
+
+            <p>
+                Create professional assignments, generate questions,
+                write answers and export your work with ease.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#builder" class="btn btn-primary">
+                    <i class="fa-solid fa-plus"></i>
+                    Start Building
+                </a>
+
+                <a href="#preview" class="btn btn-secondary">
+                    <i class="fa-regular fa-eye"></i>
+                    View Preview
+                </a>
+
+            </div>
+
+            <div class="hero-stats">
+
+                <div>
+                    <strong>01</strong>
+                    <span>Build</span>
+                </div>
+
+                <div>
+                    <strong>02</strong>
+                    <span>Answer</span>
+                </div>
+
+                <div>
+                    <strong>03</strong>
+                    <span>Export</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-card">
+
+            <div class="terminal-top">
+
+                <div class="terminal-dots">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <span>assignment.builder</span>
+
+                <i class="fa-solid fa-ellipsis"></i>
+
+            </div>
+
+            <div class="terminal-body">
+
+                <p class="code-comment">
+                    // create_assignment()
+                </p>
+
+                <p>
+                    <span class="code-key">title</span>:
+                    <span class="code-string">
+                        "Database Systems"
+                    </span>
+                </p>
+
+                <p>
+                    <span class="code-key">questions</span>:
+                    <span class="code-number">05</span>
+                </p>
+
+                <p>
+                    <span class="code-key">document</span>:
+                    <span class="code-success">"READY"</span>
+                </p>
+
+                <p>
+                    <span class="code-key">status</span>:
+                    <span class="code-success">"READY"</span>
+                </p>
+
+                <div class="terminal-line"></div>
+
+                <p class="terminal-success">
+                    <i class="fa-solid fa-check"></i>
+                    Assignment successfully prepared.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     FEATURES
+===================================================== -->
+
+<section class="features-section" id="features">
+
+    <div class="section-heading">
+
+        <span class="section-label">FEATURES</span>
+
+        <h2>
+            Everything you need to
+            <span>build assignments.</span>
+        </h2>
+
+        <p>
+            Build questions, write answers and export your
+            assignment from one workspace.
+        </p>
+
+    </div>
+
+
+    <div class="feature-grid">
+
+        <article class="feature-card">
+
+            <div class="feature-icon red">
+                <i class="fa-solid fa-file-word"></i>
+            </div>
+
+            <h3>Word Style Editor</h3>
+
+            <p>
+                Write questions and answers using a familiar
+                document editing interface.
+            </p>
+
+        </article>
+
+
+        <article class="feature-card">
+
+            <div class="feature-icon orange">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+            </div>
+
+            <h3>Question Generator</h3>
+
+            <p>
+                Generate assignment questions and insert them
+                directly into your document.
+            </p>
+
+        </article>
+
+
+        <article class="feature-card">
+
+            <div class="feature-icon blue">
+                <i class="fa-solid fa-pen-to-square"></i>
+            </div>
+
+            <h3>Rich Text Editing</h3>
+
+            <p>
+                Format your questions and answers with bold,
+                italic, underline, lists and alignment tools.
+            </p>
+
+        </article>
+
+
+        <article class="feature-card">
+
+            <div class="feature-icon dark">
+                <i class="fa-solid fa-file-export"></i>
+            </div>
+
+            <h3>DOCX & PDF</h3>
+
+            <p>
+                Export your finished assignment as a Word document
+                or PDF.
+            </p>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     BUILDER
+===================================================== -->
+
+<section class="builder-section" id="builder">
+
+    <div class="section-heading">
+
+        <span class="section-label">
+            ASSIGNMENT BUILDER
+        </span>
+
+        <h2>
+            Create your
+            <span>assignment.</span>
+        </h2>
+
+        <p>
+            Enter your assignment information before writing
+            your questions and answers.
+        </p>
+
+    </div>
+
+
+    <div class="builder-container">
+
+        <!-- =================================================
+             ASSIGNMENT DETAILS
+        ================================================== -->
+
+        <div class="builder-panel">
+
+            <div class="panel-header">
+
+                <div class="panel-header-left">
+
+                    <span class="panel-number">
+                        01
+                    </span>
+
+                    <div>
+                        <h3>Assignment Details</h3>
+                        <p>Basic information</p>
+                    </div>
+
+                </div>
+
+                <i class="fa-solid fa-file-pen"></i>
+
+            </div>
+
+
+            <form id="assignmentForm">
+
+                <!-- =============================================
+                     LOGO UPLOADER
+                ============================================== -->
+
+                <div class="input-group logo-upload-group">
+
+                    <label for="logoInput">
+                        Institution Logo
+                    </label>
+
+                    <div class="logo-uploader">
+
+                        <div class="logo-preview-box" id="logoPreviewBox">
+                            <i class="fa-regular fa-image"></i>
+                        </div>
+
+                        <div class="logo-upload-actions">
+
+                            <label for="logoInput" class="logo-upload-btn">
+                                <i class="fa-solid fa-upload"></i>
+                                Upload Logo
+                            </label>
+
+                            <button
+                                type="button"
+                                class="logo-remove-btn"
+                                id="removeLogo"
+                                disabled
+                            >
+                                <i class="fa-solid fa-trash"></i>
+                                Remove
+                            </button>
+
+                            <input
+                                type="file"
+                                id="logoInput"
+                                accept="image/png, image/jpeg, image/jpg, image/svg+xml, image/webp"
+                                hidden
+                            >
+
+                            <small class="logo-hint">
+                                PNG, JPG, SVG or WebP — max 1 MB
+                            </small>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     INSTITUTION
+                ============================================== -->
+
+                <div class="input-group">
+
+                    <label for="institution">
+                        Institution
+                    </label>
+
+                    <input
+                        type="text"
+                        id="institution"
+                        placeholder="University of Technology"
+                    >
+
+                </div>
+
+
+                <!-- =============================================
+                     SUBJECT + COURSE
+                ============================================== -->
+
+                <div class="input-row">
+
+                    <div class="input-group">
+
+                        <label for="subject">
+                            Subject
+                        </label>
+
+                        <input
+                            type="text"
+                            id="subject"
+                            placeholder="Database Systems"
+                        >
+
+                    </div>
+
+
+                    <div class="input-group">
+
+                        <label for="course">
+                            Course Code
+                        </label>
+
+                        <input
+                            type="text"
+                            id="course"
+                            placeholder="CSE-301"
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     ASSIGNMENT TITLE
+                ============================================== -->
+
+                <div class="input-group">
+
+                    <label for="title">
+                        Assignment Title
+                    </label>
+
+                    <input
+                        type="text"
+                        id="title"
+                        placeholder="Database Design Assignment"
+                    >
+
+                </div>
+
+
+                <!-- =============================================
+                     STUDENT NAME + ID
+                ============================================== -->
+
+                <div class="input-row">
+
+                    <div class="input-group">
+
+                        <label for="studentName">
+                            Student Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="studentName"
+                            placeholder="Your name"
+                        >
+
+                    </div>
+
+
+                    <div class="input-group">
+
+                        <label for="studentId">
+                            Student ID
+                        </label>
+
+                        <input
+                            type="text"
+                            id="studentId"
+                            placeholder="2026-0001"
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     DATE + DIFFICULTY
+                ============================================== -->
+
+                <div class="input-row">
+
+                    <div class="input-group">
+
+                        <label for="date">
+                            Due Date
+                        </label>
+
+                        <input
+                            type="date"
+                            id="date"
+                        >
+
+                    </div>
+
+
+                    <div class="input-group">
+
+                        <label for="difficulty">
+                            Difficulty
+                        </label>
+
+                        <select id="difficulty">
+
+                            <option value="Easy">
+                                Easy
+                            </option>
+
+                            <option value="Medium" selected>
+                                Medium
+                            </option>
+
+                            <option value="Hard">
+                                Hard
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+            </form>
+
+        </div>
+
+
+        <!-- =================================================
+             DOCUMENT EDITOR
+        ================================================== -->
+
+        <div
+            class="builder-panel editor-panel"
+            id="editor"
+        >
+
+            <div class="panel-header">
+
+                <div class="panel-header-left">
+
+                    <span class="panel-number">
+                        02
+                    </span>
+
+                    <div>
+                        <h3>Assignment Document</h3>
+                        <p>Questions and answers</p>
+                    </div>
+
+                </div>
+
+                <span class="editor-status">
+                    <span></span>
+                    Editing
+                </span>
+
+            </div>
+
+
+            <!-- Word Toolbar -->
+
+            <div class="word-toolbar">
+
+                <button
+                    type="button"
+                    title="Undo"
+                    onclick="document.execCommand('undo')"
+                >
+                    <i class="fa-solid fa-rotate-left"></i>
+                </button>
+
+                <button
+                    type="button"
+                    title="Redo"
+                    onclick="document.execCommand('redo')"
+                >
+                    <i class="fa-solid fa-rotate-right"></i>
+                </button>
+
+                <span class="toolbar-divider"></span>
+
+                <select id="fontSize">
+
+                    <option value="3">
+                        12
+                    </option>
+
+                    <option value="4">
+                        14
+                    </option>
+
+                    <option value="5">
+                        18
+                    </option>
+
+                    <option value="6">
+                        24
+                    </option>
+
+                </select>
+
+                <button
+                    type="button"
+                    onclick="document.execCommand('bold')"
+                    title="Bold"
+                >
+                    <strong>B</strong>
+                </button>
+
+                <button
+                    type="button"
+                    onclick="document.execCommand('italic')"
+                    title="Italic"
+                >
+                    <em>I</em>
+                </button>
+
+                <button
+                    type="button"
+                    onclick="document.execCommand('underline')"
+                    title="Underline"
+                >
+                    <u>U</u>
+                </button>
+
+                <span class="toolbar-divider"></span>
+
+                <button
+                    type="button"
+                    onclick="document.execCommand('justifyLeft')"
+                    title="Align left"
+                >
+                    <i class="fa-solid fa-align-left"></i>
+                </button>
+
+                <button
+                    type="button"
+                    onclick="document.execCommand('justifyCenter')"
+                    title="Center"
+                >
+                    <i class="fa-solid fa-align-center"></i>
+                </button>
+
+                <button
+                    type="button"
+                    onclick="document.execCommand('justifyRight')"
+                    title="Align right"
+                >
+                    <i class="fa-solid fa-align-right"></i>
+                </button>
+
+                <span class="toolbar-divider"></span>
+
+                <button
+                    type="button"
+                    onclick="document.execCommand('insertUnorderedList')"
+                    title="Bullet list"
+                >
+                    <i class="fa-solid fa-list-ul"></i>
+                </button>
+
+                <button
+                    type="button"
+                    onclick="document.execCommand('insertOrderedList')"
+                    title="Numbered list"
+                >
+                    <i class="fa-solid fa-list-ol"></i>
+                </button>
+
+            </div>
+
+
+            <!-- Document -->
+
+            <div
+                class="word-document"
+                id="wordEditor"
+                contenteditable="true"
+            >
+
+                <h1>
+                    Assignment Questions &amp; Answers
+                </h1>
+
+                <p class="editor-placeholder">
+                    Start writing your assignment here...
+                </p>
+
+            </div>
+
+
+            <div class="editor-actions">
+
+                <button
+                    type="button"
+                    class="add-question-btn"
+                    id="addOwnQuestion"
+                >
+                    <i class="fa-solid fa-plus"></i>
+                    Add Question
+                </button>
+
+                <button
+                    type="button"
+                    class="generate-questions-btn"
+                    id="generateQuestions"
+                >
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    Generate Questions
+                </button>
+
+                <button
+                    type="button"
+                    class="clear-btn"
+                    id="clearEditor"
+                >
+                    <i class="fa-solid fa-trash"></i>
+                    Clear
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     PREVIEW
+===================================================== -->
+
+<section
+    class="preview-section"
+    id="preview"
+>
+
+    <div class="section-heading">
+
+        <span class="section-label">
+            LIVE PREVIEW
+        </span>
+
+        <h2>
+            Your assignment,
+            <span>beautifully formatted.</span>
+        </h2>
+
+        <p>
+            Review everything before exporting your document.
+        </p>
+
+    </div>
+
+
+    <div class="preview-wrapper">
+
+        <div class="preview-toolbar">
+
+            <div>
+                <span class="status-dot"></span>
+                Live Preview
+            </div>
+
+            <div class="preview-actions">
+
+                <button
+                    type="button"
+                    id="printBtn"
+                >
+                    <i class="fa-solid fa-print"></i>
+                    Print
+                </button>
+
+                <button
+                    type="button"
+                    id="downloadDocx"
+                >
+                    <i class="fa-solid fa-file-word"></i>
+                    DOCX
+                </button>
+
+                <button
+                    type="button"
+                    id="downloadPdf"
+                >
+                    <i class="fa-solid fa-file-pdf"></i>
+                    PDF
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div class="paper" id="assignmentPreview">
+
+            <div class="paper-header">
+
+                <div class="paper-logo" id="previewLogoWrap">
+                    <img id="previewLogo" alt="Institution logo" hidden>
+                </div>
+
+                <h2 id="previewInstitution">
+                    Your Institution
+                </h2>
+
+                <div class="paper-title">
+
+                    <span>
+                        ASSIGNMENT
+                    </span>
+
+                    <h1 id="previewTitle">
+                        Assignment Title
+                    </h1>
+
+                </div>
+
+
+                <div class="paper-meta">
+
+                    <div>
+                        <span>Subject</span>
+                        <strong id="previewSubject">—</strong>
+                    </div>
+
+                    <div>
+                        <span>Course</span>
+                        <strong id="previewCourse">—</strong>
+                    </div>
+
+                    <div>
+                        <span>Due Date</span>
+                        <strong id="previewDate">—</strong>
+                    </div>
+
+                    <div>
+                        <span>Difficulty</span>
+                        <strong id="previewDifficulty">
+                            Medium
+                        </strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="student-info">
+
+                <div>
+                    <span>Student Name</span>
+
+                    <strong id="previewStudent">
+                        ____________________
+                    </strong>
+                </div>
+
+                <div>
+                    <span>Student ID</span>
+
+                    <strong id="previewId">
+                        ____________________
+                    </strong>
+                </div>
+
+            </div>
+
+
+            <div class="instructions">
+
+                <h3>
+                    <i class="fa-solid fa-circle-info"></i>
+                    Instructions
+                </h3>
+
+                <p>
+                    Answer all questions carefully. Show your work
+                    where necessary and provide clear explanations
+                    for your answers.
+                </p>
+
+            </div>
+
+
+            <div class="document-preview">
+
+                <div class="questions-title">
+
+                    <span>
+                        QUESTIONS &amp; ANSWERS
+                    </span>
+
+                </div>
+
+                <div
+                    id="previewDocument"
+                    class="preview-document-content"
+                >
+                    Your questions and answers will appear here.
+                </div>
+
+            </div>
+
+
+            <div class="paper-footer">
+
+                <span>
+                    0xCyb3rw0lf6T9 Assignment Builder
+                </span>
+
+                <span>
+                    Page 01
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer>
+
+    <div class="footer-container">
+
+        <div class="footer-brand">
+
+            <div class="footer-logo">
+
+                <span class="logo-icon">
+                    <i class="fa-solid fa-terminal"></i>
+                </span>
+
+                <div>
+                    <strong>
+                        0xCyb3rw0lf6T9
+                    </strong>
+
+                    <small>
+                        Assignment Builder
+                    </small>
+                </div>
+
+            </div>
+
+            <p>
+                A modern assignment creation tool designed
+                to make academic work simpler.
+            </p>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <div>
+
+                <h4>Product</h4>
+
+                <a href="#builder">Builder</a>
+                <a href="#editor">Editor</a>
+                <a href="#preview">Preview</a>
+
+            </div>
+
+
+            <div>
+
+                <h4>Export</h4>
+
+                <a href="#preview">
+                    <i class="fa-solid fa-file-word"></i>
+                    DOCX
+                </a>
+
+                <a href="#preview">
+                    <i class="fa-solid fa-file-pdf"></i>
+                    PDF
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+        <span>
+            © 2026 0xCyb3rw0lf6T9 Assignment Builder
+        </span>
+
+        <span>
+            Built with
+            <i class="fa-solid fa-heart"></i>
+        </span>
+
+    </div>
+
+</footer>
+
+
+<div
+    class="toast"
+    id="toast"
+    role="status"
+    aria-live="polite"
+>
+    <i class="fa-solid fa-check-circle"></i>
+
+    <span id="toastMessage">
+        Assignment generated successfully!
+    </span>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
