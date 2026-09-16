@@ -186,7 +186,10 @@ Cmd + Enter
 
  ## 🖥️ Demo
 
- 
+ <img src="./images/1.png" style:height:300px>
+ <img src="./images/2.png" style:height200px>
+ <img src="./images/3.png" style:height:200px>
+ <img src="./images/4.png" style:height:200px>
 
  ## 📸 Screenshots
 
